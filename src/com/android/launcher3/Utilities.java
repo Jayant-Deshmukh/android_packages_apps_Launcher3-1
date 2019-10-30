@@ -19,6 +19,8 @@ package com.android.launcher3;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.app.ProgressDialog;
+import static com.android.launcher3.ItemInfoWithIcon.FLAG_ICON_BADGED;
+
 import android.animation.ValueAnimator;
 import android.annotation.TargetApi;
 import android.app.ActivityManager;
@@ -97,8 +99,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import static com.android.launcher3.ItemInfoWithIcon.FLAG_ICON_BADGED;
 
 /**
  * Various utilities shared amongst the Launcher's classes.
